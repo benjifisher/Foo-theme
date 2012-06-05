@@ -1,0 +1,46 @@
+#foo-banner img {
+  width: 100%;
+}
+
+#name-and-slogan {
+  padding: 0;
+  margin: 0;
+}
+
+/* See http://drupal.org/node/766974 */
+.form-type-select,
+.bef-checkboxes,
+.bef-select-as-radios .form-radios {
+  /*
+   * Setting the height and overflow creates a scrollable <div> for the
+   * radio/checkbox elements. The border is just for looks -- adjust or remove
+   * as needed.
+   */
+  height: 150px;
+  overflow: auto;
+  border: 3px inset #999;
+}
+
+/* Line up multi-line options nicely */
+.bef-group-items .form-item,
+.bef-select-as-radios .form-radios .form-item {
+  text-indent: -24px;
+  margin-left: 24px;
+}
+
+.views-exposed-widget {
+  width: 30%;
+  margin-bottom: 1em;
+}
+
+ul.bef-tree,
+ul.bef-tree-child {
+  list-style: none;
+  margin: 0;
+  padding-left: 1em;
+}
+
+.view-filters {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
